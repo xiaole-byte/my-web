@@ -1,0 +1,44 @@
+{
+  "id": "1879309",
+  "name": "6/11",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1083",
+      "name": "高跟鞋",
+      "font_class": "gaogenxie",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "109777",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "749933",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5466014",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "7009049",
+      "name": "unfold",
+      "font_class": "unfold",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    }
+  ]
+}

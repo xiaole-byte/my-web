@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报告-最热</title>
+    <link rel="stylesheet" href="./../css/public.css">
+    <link rel="stylesheet" href="./../css/report-hot.css">
+    <script src="./../js/jquery-3.5.1.min.js"></script>
+    <script src="./../js/report-hot.js"></script>
+    <script src="./../js/doT.min.js"></script>
+</head>
+<body>
+    <!-- 头部部分  -->
+    <header>
+        <div class="header w clearfix">
+            <img src="./../img/logonew.png" alt="">
+            <ul>
+                <li><a href="./../index.html" target="_self">首页</a></li>
+                <li><a href="./../play/index.html" target="_self" class="active">酷玩</a></li>
+                <li><a href="./../guid/index.html" target="_self">导购</a></li>
+                <li><a href="./../use/index.html" target="_self">试用</a></li>
+                <li><a href="./../report/index.html" target="_self">报告</a></li>
+            </ul>
+            <div id="login">登录</div>
+            <div class="reg">注册</div>
+            <img class="search" src="./../img/search.png" alt="">
+        </div>
+    </header>
+    <!-- nav部分 -->
+    <div class="nav">
+        <div class="nav_t">
+            <h1>体验报告</h1>
+        </div>
+        <div class="nav_b">
+            <div class="new">
+                <a href="./../report/index.html" target="_self">最新</a>
+                <div class="line"></div>
+            </div>
+            <div class="hot">
+                <a href="./../report/hot.html" target="_self">最热</a>
+                <div class="line1"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="bigBox">
+        <div class="content-box clearfix">
+            <div class="content">
+                <ul>
+                    <li>
+                        <div class="image">
+                            <img src="./../img/bg8.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="p1">空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                            <div class="bdList clearfix">
+                                <div class="left">
+                                    <span class="name">苏苏</span>
+                                    <span class="time">2016-01-25</span>
+                                </div>
+                                <div class="right clearfix">
+                                    <div class="like">3</div>
+                                    <div class="words">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="./../img/bg7.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="p1">云马智行车 C1小巧清新，简洁流畅的线条为城市骑行增添一抹亮丽色彩</p>
+                            <div class="bdList clearfix">
+                                <div class="left">
+                                    <span class="name">苏苏</span>
+                                    <span class="time">2016-01-25</span>
+                                </div>
+                                <div class="right clearfix">
+                                    <div class="like">3</div>
+                                    <div class="words">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="./../img/bg6.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="p1">怎么骑都不会累的智能自行车：云马C1试骑体验</p>
+                            <div class="bdList clearfix">
+                                <div class="left">
+                                    <span class="name">苏苏</span>
+                                    <span class="time">2016-01-25</span>
+                                </div>
+                                <div class="right clearfix">
+                                    <div class="like">3</div>
+                                    <div class="words">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="./../img/bg4.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="p1">声音不是最优秀，但它形音完美的结合，足够打动人心</p>
+                            <div class="bdList clearfix">
+                                <div class="left">
+                                    <span class="name">苏苏</span>
+                                    <span class="time">2016-01-25</span>
+                                </div>
+                                <div class="right clearfix">
+                                    <div class="like">3</div>
+                                    <div class="words">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="./../img/bg5.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="p1">内在与颜值并重，MO智能体质分析仪解开你的身体密码</p>
+                            <div class="bdList clearfix">
+                                <div class="left">
+                                    <span class="name">苏苏</span>
+                                    <span class="time">2016-01-25</span>
+                                </div>
+                                <div class="right clearfix">
+                                    <div class="like">3</div>
+                                    <div class="words">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <script id="list_template" type="text/x-dot-template">
+                    {{~it:value:index}}
+                        <li>
+                            <div class="image">
+                                <img src={{=value.img}}>
+                            </div>
+                            <div class="text">
+                                <p class="p1">{{=value.text}}</p>
+                                <div class="bdList clearfix">
+                                    <div class="left">
+                                        <span class="name">{{=value.uName}}</span>
+                                        <span class="time">{{=value.endTime}}</span>
+                                    </div>
+                                    <div class="right clearfix">
+                                        <div class="like">3</div>
+                                        <div class="words">3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    {{~}}
+                </script>
+                <p class="more" id="more"><img src="./../css/img/more.png" alt=""> 点击加载更多</p>
+                <p class="loading" id="loading"><img src="./../css/img/loading-icon.gif" alt=""> 正在加载</p>
+                <p class="finish" id="finish"> 没有更多啦～</p>
+            </div>
+            <div class="aside">
+                <h3>极果体验师</h3>
+                <div class="tiyanImg">
+                    <img src="./../img/tiyanImg.jpg" alt="">
+                </div>
+                <div class="foly">
+                    <h4>福利</h4>
+                    <p>第一时间体验新品，大众试用优先通过，还有定向邀请试用，新品玩到手软！</p>
+                    <h4>要求</h4>
+                    <p>是某个领域的大神级玩家，在社交网络或圈子里有大影响力善于写作会拍摄</p>
+                    <h4>申请</h4>
+                    <p>1.关注极果公众号：jguojguo<br>（或扫描下方二维码）<br>2.在公众号内回复：体验师</p>
+                </div>
+                <div class="QRcode">
+                    <h3>关注我们</h3>
+                    <img src="./../img/myCode.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部部分 -->
+    <footer>
+        <div class="footer w clearfix">
+            <div class="code">
+                <img src="./../img/code.png" alt="">
+            </div>
+            <div class="jp">
+                <div class="jp_t">
+                    <img src="./../img/logoImg.jpg" alt="">
+                </div>
+                <div class="jp_b">
+                    <p class="one">全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                    <p>微信添加"JguoJguo" 获取我们的服务。</p>
+                </div>
+            </div>
+            <div class="right">
+                <dl class="dl1">
+                    <dt>免费试用</dt>
+                    <dd>试用流程</dd>
+                    <dd>如何提高成功率</dd>
+                </dl>
+                <dl class="dl2">
+                    <dt>友情链接</dt>
+                    <dd>智东西</dd>
+                    <dd>搜狐IT</dd>
+                    <dd>搜狐数码</dd>
+                    <dd>凤凰数码</dd>
+                    <dd>泡泡网</dd>
+                    <dd>ZUK社区</dd>
+                    <dd>极客公园</dd>
+                    <dd>国库</dd>
+                </dl>
+                <dl class="dl3">
+                    <dd>WEIBUSI</dd>
+                    <dd>腾讯科技</dd>
+                    <dd>凤凰科技</dd>
+                    <dd>PConline</dd>
+                    <dd>3W咖啡</dd>
+                    <dd>亿觅emie</dd>
+                    <dd>易迅易启玩</dd>
+                </dl>
+                <dl class="dl4">
+                    <dt>购买攻略</dt>
+                    <dd>美亚海淘教程</dd>
+                    <dd>日亚海淘教程</dd>
+                    <dd>海淘转运攻略</dd>
+                    <dd>kickstarter 众筹购买攻略</dd>
+                    <dd>indiegogo 众筹购买攻略</dd>
+                </dl>
+                <dl class="dl5">
+                    <dt>厂商合作</dt>
+                    <dd>关于极果</dd>
+                    <dd>联系我们</dd>
+                    <dd>商务合作：BD@jiguo.com</dd>
+                    <dd>CEO邮箱：CEO@jiguo.com</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="copy w">©2016 极果版权所有</div>
+        <div class="back">
+            <img src="./../img/back.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>

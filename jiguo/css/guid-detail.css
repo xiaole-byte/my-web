@@ -1,0 +1,111 @@
+@import 'reset.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.main {
+  height: auto;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+.main .nav {
+  height: 48px;
+  line-height: 48px;
+}
+.main .nav p {
+  color: #A4A4A2;
+}
+.main .nav p a {
+  color: #A4A4A2;
+}
+.main .details {
+  width: 700px;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  float: left;
+}
+.main .details .details_t {
+  height: 125px;
+  border-bottom: 1px solid #cccccc;
+}
+.main .details .details_t h2 {
+  height: 24px;
+  margin: 32px 0px 26px 24px;
+}
+.main .details .details_t .one {
+  float: left;
+  margin-left: 32px;
+  color: #A4A4A2;
+}
+.main .details .details_t .one img {
+  margin-right: 8px;
+}
+.main .details .details_t .two {
+  float: right;
+  margin-right: 24px;
+}
+.main .details .details_b {
+  width: 644px;
+  height: auto;
+  margin: 20px auto;
+}
+.main .details .details_b p {
+  font-size: 14px;
+}
+.main .details .details_b h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+.main .details .details_b img {
+  margin-bottom: 26px;
+}
+.main .details .details_b p {
+  margin-bottom: 30px;
+}
+.main .details .details_b h4 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.main .details .details_b .text {
+  color: #A4A4A2;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.main .details .details_b .text1 {
+  color: #A4A4A2;
+}
+.main .aside {
+  float: right;
+  width: 268px;
+  height: 108px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.main .aside img {
+  margin-top: 26px;
+  margin-bottom: 14px;
+}
+.main .aside .left {
+  float: left;
+  width: 133px;
+  height: 108px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+  color: #A4A4A2;
+}
+.main .aside .right {
+  float: left;
+  width: 134px;
+  height: 108px;
+  text-align: center;
+  color: #A4A4A2;
+}

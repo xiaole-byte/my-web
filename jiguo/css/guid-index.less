@@ -1,0 +1,166 @@
+@import'reset.css';
+@co:#FD5238;
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.active{
+    color: #FD5238;
+}
+.nav{
+    height: 168px;
+    background-color: #ffffff;
+    .nav_t{
+        width: 160px;
+        height: 38px;
+        margin: 48px auto;
+    }
+    .nav_b{
+        width: 332px;
+        height: 80px;
+        margin: 40px auto;
+        a{
+            font-size: 16px;
+            color: #A4A4A2;
+        }
+        .new{
+            .fl;
+            width: 165px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            a{
+                color: @co;
+            }
+            .line{
+                width: 165px;
+                height: 4px;
+                background-color: @co;
+            }
+        }
+        .hot{
+            .fl;
+            width: 165px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            .line1{
+                width: 165px;
+                height: 4px;
+                background-color: @co;
+                display: none;
+            }
+        }
+    }
+}
+.content-box{
+    width: 100%;
+    background-color: #f7f7f7;
+    .content{
+        width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        ul{
+            padding-top: 25px;
+            li{
+                background-color: white;
+                position: relative;
+                cursor: pointer;
+                float: left;
+                width: 220px;
+                height: 250px;
+                margin-right: 28px;
+                margin-bottom: 20px;
+                border: 1px solid #eaeaea;
+                border-radius: 10px;
+                &:hover .cover{
+                    transition: all 0.5s;
+                    opacity: 1;
+                }
+                .p1{
+                    padding: 0 9px;
+                    margin-top: 12px;
+                    height: 36px;
+                    font-size: 13px;
+                    color: #454545;
+                }
+                .show{
+                    img{
+                        border-radius: 10px 10px 0 0;
+                        width: 220px;
+                        height: 130px;
+                    }
+                }
+                .bot{
+                    .likeWords{
+                        float: right;
+                        margin-top: 36px;
+                        .like{
+                            width: 30px;
+                            height: 14px;
+                            text-align: right;
+                            background: url(./../css/img/xin.png) no-repeat 5px 3px;
+                            float: left;
+                        }
+                        .words{
+                            width: 30px;
+                            height: 14px;
+                            text-align: right;
+                            background: url(./../css/img/reply.png) no-repeat 5px 3px;
+                            margin-right: 11px;
+                            float: left;
+                        }
+                    }
+                }
+                .cover{
+                    opacity: 0;
+                    border-radius: 10px 10px 0 0;
+                    width: 220px;
+                    height: 130px;
+                    position: absolute;
+                    top: 0px;
+                    background-color: rgba(255,255,255,0.4);
+                }
+                .listbg{
+                    position: absolute;
+                    top: 246px;
+                }
+            }
+        }
+        .more{
+            font-size:17px;
+            color: #f8572b;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        .loading{
+            display: none;
+            font-size:17px;
+            color: #f8572b;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        .finish{
+            display: none;
+            font-size:17px;
+            color: #bcbcbc;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+}
+.returnUp{
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    top: 700px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}

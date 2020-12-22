@@ -1,0 +1,624 @@
+.loginBox {
+  display: none;
+  width: 100%;
+  height: 2000px;
+  position: absolute;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.8);
+}
+.loginBox .loginShow {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 270px;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-bottom: 4px solid #f8572b;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 2px;
+}
+.loginBox .loginShow .title {
+  color: #535353;
+  font-size: 20px;
+}
+.loginBox .loginShow .info {
+  margin-top: 20px;
+}
+.loginBox .loginShow .info input {
+  outline: none;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 360px;
+  height: 50px;
+  border: 1px solid #9c9c9c;
+  text-indent: 20px;
+}
+.loginBox .loginShow .new {
+  margin-top: 30px;
+}
+.loginBox .loginShow .new .toRegister {
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.loginBox .loginShow .new .forget {
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.loginBox .loginShow .loginBtn {
+  margin-top: 10px;
+}
+.loginBox .loginShow .loginBtn button {
+  cursor: pointer;
+  width: 360px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #f8572b;
+  color: white;
+}
+.loginBox .del {
+  cursor: pointer;
+  position: absolute;
+  left: 380px;
+  top: 5px;
+}
+.showBox {
+  background-image: url(../img/original.jpg);
+}
+.showBox .show {
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+.showBox .show .text {
+  position: absolute;
+  top: 47px;
+  left: 900px;
+  display: none;
+}
+.showBox .show .text h2 {
+  font-size: 30px;
+  color: white;
+}
+.showBox .show .text .information {
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.showBox .show .text .information .people {
+  float: left;
+  padding: 10px 9px;
+  border-radius: 5px;
+  margin-right: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.showBox .show .text .information .price {
+  float: left;
+  padding: 10px 9px;
+  border-radius: 5px;
+  margin-right: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.showBox .show .text .information .count {
+  float: left;
+  padding: 10px 9px;
+  border-radius: 5px;
+  margin-right: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.showBox .show .text .time {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: white;
+}
+.showBox .show .text .applyOnTime {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 28px;
+  color: white;
+  width: 242px;
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  background-color: #fe5341;
+  cursor: pointer;
+}
+.showBox .show .text .applyOnTime .cover {
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 242px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.showBox .show .text .applyOnTime:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.bannerBox {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.bannerBox .title {
+  margin-bottom: 20px;
+}
+.bannerBox .title h2 {
+  font-size: 19px;
+  color: #262626;
+}
+.bannerBox .banner {
+  width: 1000px;
+  position: relative;
+}
+.bannerBox .banner .arrow .arrowLeft {
+  position: absolute;
+  cursor: pointer;
+  top: 120px;
+  left: -55px;
+}
+.bannerBox .banner .arrow .arrowRight {
+  position: absolute;
+  cursor: pointer;
+  top: 120px;
+  left: 1005px;
+}
+.bannerBox .banner .inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.bannerBox .banner .inner ul {
+  width: 4000px;
+  height: 100%;
+}
+.bannerBox .banner .inner ul li {
+  float: left;
+}
+.bannerBox .banner .inner ul li .green {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 300px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+.bannerBox .banner .inner ul li .green .p1 {
+  padding: 0 9px;
+  margin-top: 12px;
+  text-align: center;
+  height: 56px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #454545;
+}
+.bannerBox .banner .inner ul li .green .show {
+  position: relative;
+}
+.bannerBox .banner .inner ul li .green .show img {
+  border-radius: 10px 10px 0 0;
+  width: 220px;
+  height: 130px;
+}
+.bannerBox .banner .inner ul li .green .show p {
+  position: absolute;
+  top: 0;
+  left: 182px;
+  border-radius: 0 10px 0 10px;
+  text-align: center;
+  padding: 6px 7px;
+  background-color: #f8572b;
+  color: white;
+}
+.bannerBox .banner .inner ul li .green .show .gold {
+  background-color: #fff4c8;
+  color: #a9a47e;
+  left: 146px;
+}
+.bannerBox .banner .inner ul li .green .count {
+  text-align: center;
+  margin-left: 54px;
+}
+.bannerBox .banner .inner ul li .green .count .left {
+  font-size: 12px;
+  margin-right: 13px;
+  float: left;
+  padding: 6px 9px;
+  border-radius: 5px;
+  color: #73ca62;
+  border: 1px solid #73ca62;
+}
+.bannerBox .banner .inner ul li .green .apply {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+.bannerBox .banner .inner ul li .green .apply .s1 {
+  color: #f8572b;
+}
+.bannerBox .banner .inner ul li .green .report {
+  margin-top: 11px;
+  color: #73ca62;
+  text-align: center;
+}
+.bannerBox .banner .inner ul li .orange {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 300px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+.bannerBox .banner .inner ul li .orange .p1 {
+  padding: 0 9px;
+  margin-top: 12px;
+  text-align: center;
+  height: 56px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #454545;
+}
+.bannerBox .banner .inner ul li .orange .show {
+  position: relative;
+}
+.bannerBox .banner .inner ul li .orange .show img {
+  border-radius: 10px 10px 0 0;
+  width: 220px;
+  height: 130px;
+}
+.bannerBox .banner .inner ul li .orange .show p {
+  position: absolute;
+  top: 0;
+  left: 182px;
+  border-radius: 0 10px 0 10px;
+  text-align: center;
+  padding: 6px 7px;
+  background-color: #f8572b;
+  color: white;
+}
+.bannerBox .banner .inner ul li .orange .show .gold {
+  background-color: #fff4c8;
+  color: #a9a47e;
+  left: 146px;
+}
+.bannerBox .banner .inner ul li .orange .count {
+  text-align: center;
+  margin-left: 54px;
+}
+.bannerBox .banner .inner ul li .orange .count .left {
+  font-size: 12px;
+  margin-right: 13px;
+  float: left;
+  padding: 6px 9px;
+  border-radius: 5px;
+  color: #f8572b;
+  border: 1px solid #f8572b;
+}
+.bannerBox .banner .inner ul li .orange .apply {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+.bannerBox .banner .inner ul li .orange .apply .s1 {
+  color: #f8572b;
+}
+.bannerBox .banner .inner ul li .orange .report {
+  margin-top: 11px;
+  color: #f8572b;
+  text-align: center;
+}
+.reportBox {
+  width: 100%;
+  padding-top: 25px;
+  background-color: #f7f7f7;
+}
+.reportBox .title {
+  width: 1000px;
+  margin: 0 auto;
+}
+.reportBox .title h2 {
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+  color: #545454;
+}
+.reportBox .title p {
+  float: right;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.reportBox .title p a {
+  color: #f8572b;
+}
+.reportBox .report {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.reportBox .report ul li {
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 240px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.reportBox .report ul li:hover {
+  transition: all 0.5s;
+  box-shadow: 1px 1px 10px 2px;
+}
+.reportBox .report ul li .p1 {
+  margin-left: 9px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #454545;
+}
+.reportBox .report ul li .show img {
+  width: 220px;
+  height: 130px;
+}
+.reportBox .report ul li .bot .price {
+  margin-top: 26px;
+  text-indent: 9px;
+  float: left;
+  color: #9a9b9d;
+  font-size: 13px;
+}
+.reportBox .report ul li .bot .likeWords {
+  float: right;
+  margin-top: 26px;
+}
+.reportBox .report ul li .bot .likeWords .like {
+  width: 30px;
+  color: #9a9b9d;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/xin.png) no-repeat 5px 3px;
+  float: left;
+}
+.reportBox .report ul li .bot .likeWords .words {
+  color: #9a9b9d;
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/reply.png) no-repeat 5px 3px;
+  margin-right: 11px;
+  float: left;
+}
+.guidBox {
+  width: 100%;
+  padding-top: 25px;
+  background-color: white;
+}
+.guidBox .title {
+  width: 1000px;
+  margin: 0 auto;
+}
+.guidBox .title h2 {
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+  color: #545454;
+}
+.guidBox .title p {
+  float: right;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.guidBox .title p a {
+  color: #f8572b;
+}
+.guidBox .guid {
+  width: 1000px;
+  margin: 0 auto;
+}
+.guidBox .guid ul {
+  padding-top: 25px;
+}
+.guidBox .guid ul li {
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 250px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+.guidBox .guid ul li:hover .cover {
+  transition: all 0.5s;
+  opacity: 1;
+}
+.guidBox .guid ul li .p1 {
+  padding: 0 9px;
+  margin-top: 12px;
+  height: 36px;
+  font-size: 13px;
+  color: #454545;
+}
+.guidBox .guid ul li .show img {
+  border-radius: 10px 10px 0 0;
+  width: 220px;
+  height: 130px;
+}
+.guidBox .guid ul li .bot .likeWords {
+  float: right;
+  margin-top: 36px;
+}
+.guidBox .guid ul li .bot .likeWords .like {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/xin.png) no-repeat 5px 3px;
+  float: left;
+}
+.guidBox .guid ul li .bot .likeWords .words {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/reply.png) no-repeat 5px 3px;
+  margin-right: 11px;
+  float: left;
+}
+.guidBox .guid ul li .cover {
+  opacity: 0;
+  border-radius: 10px 10px 0 0;
+  width: 220px;
+  height: 130px;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.guidBox .guid ul li .listbg {
+  position: absolute;
+  top: 246px;
+}
+.playBox {
+  width: 100%;
+  padding-top: 25px;
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+.playBox .title {
+  width: 1000px;
+  margin: 0 auto;
+}
+.playBox .title h2 {
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+  color: #545454;
+}
+.playBox .title p {
+  float: right;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.playBox .title p a {
+  color: #f8572b;
+}
+.playBox .play {
+  width: 1000px;
+  margin: 0 auto;
+}
+.playBox .play ul {
+  padding-top: 25px;
+}
+.playBox .play ul li {
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 260px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.playBox .play ul li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.playBox .play ul li .p1 {
+  margin-left: 9px;
+  margin-top: 12px;
+  height: 36px;
+  font-size: 13px;
+  color: #454545;
+}
+.playBox .play ul li .p2 {
+  text-indent: 9px;
+  font-size: 12px;
+  color: #9a9b9d;
+}
+.playBox .play ul li .show img {
+  width: 220px;
+  height: 130px;
+}
+.playBox .play ul li .bot .price {
+  margin-top: 26px;
+  text-indent: 9px;
+  float: left;
+  color: #f8572b;
+  font-size: 13px;
+}
+.playBox .play ul li .bot .likeWords {
+  float: right;
+  margin-top: 26px;
+}
+.playBox .play ul li .bot .likeWords .like {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/xin.png) no-repeat 5px 3px;
+  float: left;
+}
+.playBox .play ul li .bot .likeWords .words {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/reply.png) no-repeat 5px 3px;
+  margin-right: 11px;
+  float: left;
+}
+.playBox .play .more {
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.playBox .play .loading {
+  display: none;
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.playBox .play .finish {
+  display: none;
+  font-size: 17px;
+  color: #bcbcbc;
+  text-align: center;
+  margin-top: 30px;
+}
+.returnUp {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  right: 40px;
+  top: 700px;
+}
+.returnUp img {
+  width: 50px;
+  height: 50px;
+}

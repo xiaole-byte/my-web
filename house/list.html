@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <!-- 头部部分 -->
+    <header class="clearfix">
+        <div class="header_l">
+            <img src="index/logo.jpg" alt="">
+        </div>
+        <div class="header_r">
+            <img src="index/my.jpg" alt="">
+            <img src="index/xiazai.jpg" alt="">
+        </div>
+    </header>
+    <!-- 搜索部分 -->
+    <div class="search">
+        <input type="text" placeholder="请输入小区名或商圈名称">
+        <span>|</span>
+        <img src="images/search_03.png" alt="">
+    </div>
+    <!-- 区域价格部分 -->
+    <ul class="list">
+        <li>
+            <a href="javascript:void(0)">区域</a>
+            <div class="arrow_down">
+                <img class="down1" src="images/top.png" alt=""  style="width: 0.08rem; height: 0.07rem;">
+                <img class="up" src="images/bott.png" alt=""   style="display: none;width: 0.08rem; height: 0.07rem;">
+            </div>
+        </li>
+        <li>
+            <a href="javascript:void(0)">价格</a>
+            <div class="arrow_down">
+                <img class="down1" src="images/top.png" alt="" style="width: 0.08rem; height: 0.07rem;">
+                <img class="up" src="images/bott.png" alt=""  style="display: none;width: 0.08rem; height: 0.07rem;">
+            </div>
+        </li>
+        <li>
+            <a href="javascript:void(0)">房型</a>
+            <div class="arrow_down">
+                <img class="down1" src="images/top.png" alt=""  style="width: 0.08rem; height: 0.07rem;">
+                <img class="up" src="images/bott.png" alt=""  style="display: none;width: 0.08rem; height: 0.07rem;">
+            </div>
+        </li>
+        <li>
+            <a href="javascript:void(0)">更多</a>
+            <div class="arrow_down">
+                <img class="down1" src="images/top.png" alt="" style="width: 0.08rem; height: 0.07rem;">
+                <img class="up" src="images/bott.png" alt=""  style="display: none;width: 0.08rem; height: 0.07rem;">
+            </div>
+        </li>
+    </ul>
+     <!-- 下拉菜单部分 -->
+     <div class="hid" style="display: none;"></div>
+     <div class="proudt down" style="display: none;">
+         <div class="left">
+             <p>区域</p>
+             <div class="box">地铁</div>
+         </div>        
+         <ul class="clearfix">
+             <li>
+                 <a href="#">附近</a>
+                 <a href="#">不限</a>
+                 <a href="#">朝阳</a>
+                 <a href="#">海淀</a>
+                 <a href="#">昌平</a>
+                 <a href="#">丰台</a>
+                 <a href="#">石景山</a>
+             </li>
+             <li>
+                 <a href="#">不限</a>
+                 <a href="#">安贞</a>
+                 <a href="#">奥林匹克公园</a>
+                 <a href="#">百子湾</a>
+                 <a href="#">北工大</a>
+                 <a href="#">北苑</a>
+                 <a href="#">CBD</a>
+             </li>
+         </ul>
+     </div>
+     <div class="proudt1 down" style="display: none;">
+         <ul>
+             <li>不限</li>
+             <li>100万以下</li>
+             <li>100万-150万</li>
+             <li>150万-200万</li>
+             <li>200万-250万</li>
+             <li>250万-300万</li>
+             <li>自定义价格</li>
+         </ul>
+     </div>
+     <div class="proudt2 down" style="display: none;" >
+         <ul>
+             <li>不限</li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li><span>1室</span> <input type="checkbox"></li>
+             <li>确定</li>
+         </ul>
+     </div>
+     <div class="proudt3 down" style="display: none;">
+         <ul>
+             <li>
+                 <h3>区域</h3>
+                 <span>南</span><span>南北</span><span>东</span>
+                 <span>西</span><span>北</span>
+             </li>
+             <li>
+                 <h3>面积（平方）</h3>
+                 <span>50以下</span><span>50-70</span><span>70-90</span>
+                 <span>90-110</span><span>110-130</span><span>130-150</span>
+                 <span>150-200</span><span>200以上</span>
+             </li>
+             <li>
+                 <h3>标签</h3>
+                 <span>学区房</span><span>地铁房</span><span>不限购</span>
+                 <span>满两年</span><span>满五唯一</span><span>降价</span>
+                 <span>新上</span><span>独家</span><span>有钥匙</span>
+             </li>
+             <li>
+                 <h3>楼龄</h3>
+                 <span>5年以内</span><span>10年以内</span>
+                 <span>10-20年</span>
+                 <span>20年以上</span>
+             </li>
+         </ul>
+     </div>
+    
+
+    <ul class="hot">
+        <li>
+            <div class="content">
+                <div class="left">
+                    <img src="images/img1.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="text">西便门外大街2室1厅89平</div>
+                    <p>南北 高楼层/6层</p>
+                    <p>签约价格:13244元<span>1105万</span></p>
+                    <p>签约日期:2015年11月10日</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <div class="left">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="text">金桥国际 1室1厅 63平</div>
+                    <p>南北 高楼层/6层</p>
+                    <p>签约价格:13244元 <span>905万</span></p>
+                    <p>签约日期:2015年11月10日</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <div class="left">
+                    <img src="images/img3.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="text">花涧溪二期 2室2厅 90平</div>
+                    <p>南北 高楼层/6层</p>
+                    <p>签约价格:13244元<span>1322万</span></p>
+                    <p>签约日期:2015年11月10日</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!-- 底部部分 -->
+    <footer>
+        <div class="footer_t">
+            <p>北京找房无忧 > <a href="#">首页</a></p>
+        </div>
+        <div class="footer_c">
+            <ul class="clearfix">
+                <li>
+                    <div class="box">
+                        <img src="index/apple.png" alt="">
+                        <div class="text">
+                            <p>iphone</p>
+                            <p>客户端</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box ">
+                        <img src="index/android.png" alt="">
+                        <div class="text">
+                            <p>iphone</p>
+                            <p>客户端</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_b">
+            <p>北京找房无忧房地产经纪公司</p>
+            <p>网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+</body>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/touch-0.2.14.min.js"></script>
+<script src="js/list.js"></script>
+</html>

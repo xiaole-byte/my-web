@@ -1,0 +1,237 @@
+@import 'rest.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.active {
+  color: #FD5238;
+}
+.nav {
+  height: 168px;
+  background-color: #ffffff;
+}
+.nav .nav_t {
+  width: 160px;
+  height: 38px;
+  margin: 48px auto;
+}
+.nav .nav_b {
+  width: 498px;
+  height: 80px;
+  margin: 40px auto;
+}
+.nav .nav_b a {
+  font-size: 16px;
+  color: #A4A4A2;
+}
+.nav .nav_b .new {
+  float: left;
+  width: 166px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .new a {
+  color: #FD5238;
+}
+.nav .nav_b .new .line {
+  width: 166px;
+  height: 4px;
+  background-color: #FD5238;
+}
+.nav .nav_b .hot {
+  float: left;
+  width: 166px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .hot .line1 {
+  width: 166px;
+  height: 4px;
+  background-color: #FD5238;
+  display: none;
+}
+.nav .nav_b .category {
+  float: left;
+  width: 166px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .category .line2 {
+  width: 166px;
+  height: 4px;
+  background-color: #FD5238;
+  display: none;
+}
+.main .main_content .box {
+  overflow: hidden;
+}
+.main .main_content .box li {
+  width: 220px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.main .main_content .box li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.main .main_content .box li .top img {
+  width: 220px;
+}
+.main .main_content .box li .bottom .light {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box li .bottom .font {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+}
+.main .main_content .box li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: red;
+}
+.main .main_content .box li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+.main .main_content .box li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.main .main_content .box li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.main .main_content .box2 {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.main .main_content .box2 li {
+  width: 220px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.main .main_content .box2 li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.main .main_content .box2 li .top img {
+  width: 220px;
+}
+.main .main_content .box2 li .bottom .light {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box2 li .bottom .font {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box2 li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+}
+.main .main_content .box2 li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: red;
+}
+.main .main_content .box2 li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+.main .main_content .box2 li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.main .main_content .box2 li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.main .main_content .box1 {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.main .main_content .box1 li {
+  width: 220px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.main .main_content .box1 li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.main .main_content .box1 li .top img {
+  width: 220px;
+}
+.main .main_content .box1 li .bottom .light {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box1 li .bottom .font {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .main_content .box1 li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+}
+.main .main_content .box1 li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: red;
+}
+.main .main_content .box1 li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+.main .main_content .box1 li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.main .main_content .box1 li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.more {
+  margin-top: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: red;
+  background: url(../img/more.png) no-repeat 443px 6px;
+}

@@ -1,0 +1,234 @@
+body {
+  background-color: #f7f7f7;
+}
+.banner1 {
+  width: 100%;
+  height: 2.25rem;
+  background: url(../index/banner.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.banner1 .ban {
+  width: 100%;
+}
+.banner1 .search {
+  width: 2.9rem;
+  height: 0.32rem;
+  background-color: #ffffff;
+  border-left: 2px solid #9a9a9a;
+  border-top: 2px solid #9a9a9a;
+  border-right: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.15rem;
+  bottom: 0.08rem;
+}
+.banner1 .search img {
+  margin-left: 0.1rem;
+}
+.banner1 .search p {
+  font-size: 0.12rem;
+  margin-left: 0.1rem;
+}
+.nav {
+  height: 1.2rem;
+  background-color: #ff8a00;
+}
+.nav ul {
+  width: 100%;
+  padding-left: 0.14rem;
+  padding-right: 0.14rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+}
+.nav ul li {
+  width: 20%;
+  margin-right: 0.22rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0.12rem;
+}
+.nav ul li img {
+  width: 100%;
+  margin-bottom: 0.08rem;
+}
+.nav ul li:last-child {
+  margin-right: 0;
+}
+.banner2 {
+  width: 100%;
+  margin-top: 0.1rem;
+}
+.banner2 img {
+  width: 100%;
+  height: auto;
+}
+.hot_t {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #ff8a00;
+  margin-top: 0.1rem;
+  overflow: hidden;
+}
+.hot_t p {
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+.hot_t p:nth-of-type(1) {
+  font-size: 0.16rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.06rem;
+}
+.hot {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.hot li {
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  border-bottom: 1px solid #ff0000;
+}
+.hot li .content {
+  margin: 0.23rem 0.1rem;
+  display: flex;
+}
+.hot li .content .left img {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.hot li .content .right {
+  width: 1.54rem;
+  margin-left: 0.1rem;
+}
+.hot li .content .right h3 {
+  font-size: 0.16rem;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hot li .content .right p:nth-of-type(1) {
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.12rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.15rem;
+}
+.hot li .content .right p:nth-of-type(1) span {
+  display: block;
+  color: #ff8a00;
+  font-weight: bold;
+  float: right;
+}
+.hot li .content .right p:nth-of-type(2) {
+  margin-bottom: 0.1rem;
+  font-size: 0.12rem;
+}
+.hot li .content .right p:nth-of-type(2) span {
+  display: block;
+  float: right;
+}
+.hot li .content .right .btn {
+  padding: 0.04rem;
+  background-color: #f4f7f9;
+  color: #a3b4c3;
+}
+.hot li:last-child {
+  border-bottom: none;
+}
+.links {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 0.1rem;
+}
+.links li {
+  display: flex;
+  height: 0.5rem;
+  border-bottom: 1px solid #ff8a00;
+}
+.links li a {
+  width: 50%;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.18rem;
+  font-weight: normal;
+  text-align: center;
+}
+.links li .border {
+  border-bottom: 2px solid #ff8a00;
+}
+.list_ {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.list_ li {
+  width: 50%;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  float: left;
+  text-align: center;
+}
+.ad {
+  width: 100%;
+  height: 0.5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.ad .ad_l {
+  width: 70%;
+  height: 0.5rem;
+  float: left;
+  background-color: rgba(127, 127, 127, 0.6);
+  position: relative;
+}
+.ad .ad_l .colse {
+  width: 0.15rem;
+  height: 0.15rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ad .ad_l .colse img {
+  width: 0.15rem;
+  height: 0.15rem;
+}
+.ad .ad_l img.down {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-left: 0.3rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+.ad .ad_l .text {
+  float: left;
+  margin-left: 0.18rem;
+  margin-top: 0.1rem;
+}
+.ad .ad_l .text p:nth-of-type(1) {
+  font-size: 0.16rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.ad .ad_l .text p:nth-of-type(2) {
+  font-size: 0.12rem;
+  color: #ffffff;
+}
+.ad .ad_r {
+  width: 30%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  float: left;
+  background-color: #ff8a00;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.16rem;
+}

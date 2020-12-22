@@ -1,0 +1,113 @@
+@import'reset.css';
+@co:#A4A4A2;
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.main{
+    height: auto;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    .nav{
+        height: 48px;
+        line-height: 48px;
+        p{
+            color: @co;
+            a{
+                color: @co;
+            }
+        }
+    }
+    .details{
+        width: 700px;
+        height: auto;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        .fl;
+        .details_t{
+            height: 125px;
+            border-bottom: 1px solid #cccccc;
+            h2{
+                height: 24px;
+                margin: 32px 0px 26px 24px;
+            }
+            .one{
+                .fl;
+                margin-left: 32px;
+                color: @co;
+                img{
+                    margin-right: 8px;
+                }
+            }
+            .two{
+                .fr;
+                margin-right: 24px;
+            }
+        }
+        .details_b{
+            width: 644px;
+            height: auto;
+            margin: 20px auto;
+            p{
+                font-size: 14px;
+            }
+            h3{
+                font-weight: bold;
+                text-align: center;
+                font-size: 16px;
+            }
+            img{
+                margin-bottom: 26px;
+            }
+            p{
+                margin-bottom: 30px;
+            }
+            h4{
+                font-weight: bold;
+                text-align: center;
+                font-size: 16px;
+                margin-bottom: 24px;
+    
+            }
+            .text{
+                color: @co;
+                margin-top: 30px;
+                margin-bottom: 0px;
+            }
+            .text1{
+                color: @co;
+            }
+        }
+    }
+    .aside{
+        .fr;
+        width: 268px;
+        height: 108px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        background-color: #ffffff;
+        img{
+            margin-top: 26px;
+            margin-bottom: 14px;
+        }
+        .left{
+            .fl;
+            width: 133px;
+            height: 108px;
+            border-right: 1px solid #cccccc;
+            text-align: center;
+            color: @co;
+        }
+        .right{
+            .fl;
+            width: 134px;
+            height: 108px;
+            text-align: center;
+            color: @co;
+        }
+    }
+}

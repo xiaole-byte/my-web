@@ -1,0 +1,153 @@
+@import 'rest.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header {
+  height: 74px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d0d0d0;
+  box-shadow: 2px 2px 2px #d0d0d0;
+}
+header img {
+  width: 138px;
+  height: 54px;
+  margin-top: 10px;
+  float: left;
+}
+header ul {
+  float: left;
+  margin-top: 32px;
+  margin-left: 64px;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  margin-right: 50px;
+  font-size: 20px;
+}
+header .search {
+  width: 26px;
+  height: 27px;
+  float: right;
+  margin-top: 26px;
+  margin-right: 32px;
+}
+header .reg {
+  width: 52px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #FA884A;
+  border-radius: 4px;
+  text-align: center;
+  color: #FA884A;
+  float: right;
+  margin-top: 20px;
+}
+header #login {
+  width: 52px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #FA884A;
+  border-radius: 4px;
+  text-align: center;
+  color: #FA884A;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+header .reg:hover {
+  background-color: #f65340;
+  color: white;
+}
+header #login:hover {
+  background-color: #f65340;
+  color: white;
+}
+footer {
+  height: 360px;
+  background-color: #505050;
+  overflow: hidden;
+}
+footer .footer {
+  margin-top: 40px;
+}
+footer .footer .code {
+  float: left;
+  margin-right: 20px;
+}
+footer .footer .code img {
+  width: 161px;
+  height: 161px;
+}
+footer .footer .jp {
+  width: 134px;
+  height: auto;
+  margin-right: 32px;
+  float: left;
+}
+footer .footer .jp .jp_t {
+  width: 121px;
+  height: 46px;
+}
+footer .footer .jp .jp_b {
+  width: 126px;
+  margin-top: 26px;
+}
+footer .footer .jp .jp_b p {
+  color: #959595;
+}
+footer .footer .jp .jp_b p.one {
+  margin-bottom: 20px;
+}
+footer .footer .right dt {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+footer .footer .right dd {
+  color: #959595;
+}
+footer .footer .right .dl1 {
+  float: left;
+  width: 120px;
+  margin-left: 32px;
+}
+footer .footer .right .dl2 {
+  float: left;
+  width: 64px;
+}
+footer .footer .right .dl3 {
+  float: left;
+  width: 96px;
+  margin-top: 44px;
+}
+footer .footer .right .dl4 {
+  float: left;
+  width: 170px;
+}
+footer .footer .right .dl5 {
+  float: left;
+}
+footer .copy {
+  float: left;
+  width: 128px;
+  height: 20px;
+  color: #959595;
+  margin-top: 80px;
+  margin-left: 600px;
+}
+footer .back {
+  float: right;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 120px;
+  margin-top: 10px;
+}
